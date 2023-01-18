@@ -1,0 +1,23 @@
+{
+  "name": "udemy-mern",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "oh sato",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18"
+  }
+}
